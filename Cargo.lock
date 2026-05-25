@@ -34,8 +34,8 @@ checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
 
 [[package]]
 name = "lava-arch"
-version = "0.1.0"
-source = "git+https://github.com/pleme-io/lava-arch?branch=main#4ccd565ed8b30429c10442a077cf9763ab9dca49"
+version = "0.1.1"
+source = "git+https://github.com/pleme-io/lava-arch?branch=main#89252b1064356af4f529a1a34b3f78bca72bb184"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -57,7 +57,7 @@ dependencies = [
 
 [[package]]
 name = "lava-stack"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "indexmap",
  "lava-arch",
