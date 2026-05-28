@@ -34,8 +34,8 @@ checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
 
 [[package]]
 name = "lava-arch"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-arch?branch=main#89252b1064356af4f529a1a34b3f78bca72bb184"
+version = "0.1.2"
+source = "git+https://github.com/pleme-io/lava-arch?branch=main#c209f38fa3ea023998fa98b29c47323445cf5b1d"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -46,19 +46,20 @@ dependencies = [
 
 [[package]]
 name = "lava-core"
-version = "0.1.2"
-source = "git+https://github.com/pleme-io/lava-core?branch=main#9d3dacaf51c7bae86efb0c925842286a793039cf"
+version = "0.1.5"
+source = "git+https://github.com/pleme-io/lava-core?branch=main#9f3f4874d0cd2403dc12c90bfed0dd2af2eca1e0"
 dependencies = [
  "indexmap",
  "serde",
  "serde_json",
+ "serde_yaml",
  "thiserror",
 ]
 
 [[package]]
 name = "lava-schema"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-schema?branch=main#9366c7db071ac8476f3c75085281b6a6bec0168d"
+version = "0.1.2"
+source = "git+https://github.com/pleme-io/lava-schema?branch=main#87ff6aa2ad0792005d261e649cf9aa0730c508a5"
 dependencies = [
  "indexmap",
  "lava-types",
@@ -83,7 +84,7 @@ dependencies = [
 [[package]]
 name = "lava-types"
 version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-types?branch=main#961bf4c24eec994c4cd7557a5fc6a3522928c455"
+source = "git+https://github.com/pleme-io/lava-types?branch=main#b25da786d635dc4880e55c63f8629a7727b2db89"
 dependencies = [
  "serde",
  "thiserror",
@@ -91,9 +92,9 @@ dependencies = [
 
 [[package]]
 name = "memchr"
-version = "2.8.0"
+version = "2.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
+checksum = "6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8"
 
 [[package]]
 name = "proc-macro2"
@@ -112,6 +113,12 @@ checksum = "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924"
 dependencies = [
  "proc-macro2",
 ]
+
+[[package]]
+name = "ryu"
+version = "1.0.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9774ba4a74de5f7b1c1451ed6cd5285a32eddb5cccb8cc655a4e50009e06477f"
 
 [[package]]
 name = "serde"
@@ -157,6 +164,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "serde_yaml"
+version = "0.9.34+deprecated"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6a8b1a1a2ebf674015cc02edccce75287f1a0130d394307b36743c2f5d504b47"
+dependencies = [
+ "indexmap",
+ "itoa",
+ "ryu",
+ "serde",
+ "unsafe-libyaml",
+]
+
+[[package]]
 name = "syn"
 version = "2.0.117"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -192,6 +212,12 @@ name = "unicode-ident"
 version = "1.0.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
+
+[[package]]
+name = "unsafe-libyaml"
+version = "0.2.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "673aac59facbab8a9007c7f6108d11f63b603f7cabff99fabf650fea5c32b861"
 
 [[package]]
 name = "zmij"
