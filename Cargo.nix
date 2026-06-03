@@ -186,8 +186,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-arch";
-          rev = "b76775c67ba839557e1d62cea07e95c30e5d47e3";
-          sha256 = "0xn9divz81sqv3zc6v7fa225750z9hgxlacxnzbs3p6zcgwbhhx1";
+          rev = "fe86e80f783f52672609a3eb284cbc925621e0e1";
+          sha256 = "07is4q20k3hb46npij7wzfr3imj36pf21zcr072s6dxg6qm6xmrx";
         };
         libName = "lava_arch";
         authors = [
@@ -226,8 +226,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-core";
-          rev = "df13f94d90911d47138bf211d492c4962630f8ca";
-          sha256 = "0bqlv3zr4j9i1pmhp0h0z97bbajj2bfj9r1r6p8n0f1yga0r573m";
+          rev = "3dbda513eab597858a479cd7aa6897c8cd4aa9b3";
+          sha256 = "12fgq31zhn4qln21iwnkgzhiwyk5s0ppw8m2j8xg7xm2swnnmrd6";
         };
         libName = "lava_core";
         authors = [
@@ -266,8 +266,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-schema";
-          rev = "1abb14533eca15a2092768d56357ebff3761b098";
-          sha256 = "0rib4nip5jlbfj2f0x9gj7far8lmynv24pyqvx0cwqif4mx4930k";
+          rev = "d7e6bb386c43e0953e7b0ad53ef285c9dee6ccaa";
+          sha256 = "1imnzfyamlk7b1h835gdzkd9k87rcjvqmfzys14xfzqkyd0qlg8h";
         };
         libName = "lava_schema";
         authors = [
@@ -297,7 +297,7 @@ rec {
       };
       "lava-stack" = rec {
         crateName = "lava-stack";
-        version = "0.1.5";
+        version = "0.1.6";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         libName = "lava_stack";
@@ -351,8 +351,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-types";
-          rev = "16ac0b6c7c33c96e2cf17c0067db94e8633e5062";
-          sha256 = "0p8jxjp2x6am103d23wjk2zwrgd84j09k2ki168vri2rqrp8qwk6";
+          rev = "3aa636a8f9e468591097c21ad4513c91326b1fe1";
+          sha256 = "1cn4f2jax26yzgp0fsypz8vfcz4qsmxws6y8j7kpay5r98xxbwx9";
         };
         libName = "lava_types";
         authors = [
