@@ -1,6 +1,9 @@
 {
-  "schema_version": 1,
-  "cargo_lock_sha256": "2180e5df35a3daeca08cac876400c494aae7bba060c8800f53715dc8a5c04be9",
+  "schema_version": 2,
+  "cargo_lock_sha256": "57d9aea6de0c8f10e1f53c25792a6571bc38eb2b093e99cb753a7641ceca3e10",
+  "manifest_sha256": {
+    "Cargo.toml": "4b31eb557eea80bdacee707c52dd518cdab3712cc3adb1a3ff0f7f0a1a67a7c5"
+  },
   "target_resolves": {
     "base": {
       "equivalent-1.0.2": {
@@ -37,7 +40,7 @@
           },
           {
             "name": "serde_core",
-            "package_key": "serde_core-1.0.228",
+            "package_key": "serde_core-1.0.229",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -58,7 +61,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-arch-0.1.5-548d3c764a451b627bcf9cb1f4be4c4fdd0b2f2d": {
+      "lava-arch-0.1.6": {
         "runtime_dependencies": [
           {
             "name": "indexmap",
@@ -74,7 +77,7 @@
           },
           {
             "name": "lava_core",
-            "package_key": "lava-core-0.1.6-610f5231d47cfaddad053b4c351ce6ef663002df",
+            "package_key": "lava-core-0.1.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -84,7 +87,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -96,7 +99,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -106,7 +109,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -118,7 +121,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-core-0.1.6-610f5231d47cfaddad053b4c351ce6ef663002df": {
+      "lava-core-0.1.7": {
         "runtime_dependencies": [
           {
             "name": "indexmap",
@@ -134,7 +137,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -146,7 +149,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -166,7 +169,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -178,7 +181,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-schema-0.1.5-780b607f643a126339c158bc2f53078383a32d38": {
+      "lava-schema-0.1.7": {
         "runtime_dependencies": [
           {
             "name": "indexmap",
@@ -194,7 +197,7 @@
           },
           {
             "name": "lava_types",
-            "package_key": "lava-types-0.1.2-5919002fc907fdb0c2c348be5e12ffa08e510430",
+            "package_key": "lava-types-0.1.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -204,7 +207,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -216,7 +219,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -244,7 +247,7 @@
           },
           {
             "name": "lava_arch",
-            "package_key": "lava-arch-0.1.5-548d3c764a451b627bcf9cb1f4be4c4fdd0b2f2d",
+            "package_key": "lava-arch-0.1.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -254,7 +257,7 @@
           },
           {
             "name": "lava_core",
-            "package_key": "lava-core-0.1.6-610f5231d47cfaddad053b4c351ce6ef663002df",
+            "package_key": "lava-core-0.1.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -264,7 +267,7 @@
           },
           {
             "name": "lava_schema",
-            "package_key": "lava-schema-0.1.5-780b607f643a126339c158bc2f53078383a32d38",
+            "package_key": "lava-schema-0.1.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -274,7 +277,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -286,7 +289,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -296,7 +299,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -308,11 +311,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-types-0.1.2-5919002fc907fdb0c2c348be5e12ffa08e510430": {
+      "lava-types-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -324,7 +327,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -344,7 +347,7 @@
           "std"
         ]
       },
-      "proc-macro2-1.0.106": {
+      "proc-macro2-1.0.107": {
         "runtime_dependencies": [
           {
             "name": "unicode_ident",
@@ -363,11 +366,11 @@
           "proc-macro"
         ]
       },
-      "quote-1.0.46": {
+      "quote-1.0.47": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
-            "package_key": "proc-macro2-1.0.106",
+            "package_key": "proc-macro2-1.0.107",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -387,11 +390,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "serde-1.0.228": {
+      "serde-1.0.229": {
         "runtime_dependencies": [
           {
             "name": "serde_core",
-            "package_key": "serde_core-1.0.228",
+            "package_key": "serde_core-1.0.229",
             "kind": "normal",
             "features": [
               "result"
@@ -403,7 +406,7 @@
           },
           {
             "name": "serde_derive",
-            "package_key": "serde_derive-1.0.228",
+            "package_key": "serde_derive-1.0.229",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -420,7 +423,7 @@
           "std"
         ]
       },
-      "serde_core-1.0.228": {
+      "serde_core-1.0.229": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -428,11 +431,11 @@
           "std"
         ]
       },
-      "serde_derive-1.0.228": {
+      "serde_derive-1.0.229": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
-            "package_key": "proc-macro2-1.0.106",
+            "package_key": "proc-macro2-1.0.107",
             "kind": "normal",
             "features": [
               "proc-macro"
@@ -444,7 +447,7 @@
           },
           {
             "name": "quote",
-            "package_key": "quote-1.0.46",
+            "package_key": "quote-1.0.47",
             "kind": "normal",
             "features": [
               "proc-macro"
@@ -456,7 +459,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-2.0.119",
+            "package_key": "syn-3.0.3",
             "kind": "normal",
             "features": [
               "clone-impls",
@@ -476,7 +479,7 @@
           "default"
         ]
       },
-      "serde_json-1.0.150": {
+      "serde_json-1.0.151": {
         "runtime_dependencies": [
           {
             "name": "itoa",
@@ -500,7 +503,7 @@
           },
           {
             "name": "serde_core",
-            "package_key": "serde_core-1.0.228",
+            "package_key": "serde_core-1.0.229",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -559,7 +562,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -581,11 +584,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "syn-2.0.119": {
+      "syn-3.0.3": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
-            "package_key": "proc-macro2-1.0.106",
+            "package_key": "proc-macro2-1.0.107",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -595,7 +598,7 @@
           },
           {
             "name": "quote",
-            "package_key": "quote-1.0.46",
+            "package_key": "quote-1.0.47",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -624,11 +627,11 @@
           "proc-macro"
         ]
       },
-      "thiserror-2.0.18": {
+      "thiserror-2.0.19": {
         "runtime_dependencies": [
           {
             "name": "thiserror_impl",
-            "package_key": "thiserror-impl-2.0.18",
+            "package_key": "thiserror-impl-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -643,11 +646,11 @@
           "std"
         ]
       },
-      "thiserror-impl-2.0.18": {
+      "thiserror-impl-2.0.19": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
-            "package_key": "proc-macro2-1.0.106",
+            "package_key": "proc-macro2-1.0.107",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -657,7 +660,7 @@
           },
           {
             "name": "quote",
-            "package_key": "quote-1.0.46",
+            "package_key": "quote-1.0.47",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -667,7 +670,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-2.0.119",
+            "package_key": "syn-3.0.3",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -729,13 +732,13 @@
     "itoa-1.0.18": {
       "edition": "2021"
     },
-    "lava-arch-0.1.5-548d3c764a451b627bcf9cb1f4be4c4fdd0b2f2d": {
+    "lava-arch-0.1.6": {
       "edition": "2024"
     },
-    "lava-core-0.1.6-610f5231d47cfaddad053b4c351ce6ef663002df": {
+    "lava-core-0.1.7": {
       "edition": "2024"
     },
-    "lava-schema-0.1.5-780b607f643a126339c158bc2f53078383a32d38": {
+    "lava-schema-0.1.7": {
       "edition": "2024"
     },
     "lava-stack-0.1.7": {
@@ -745,50 +748,50 @@
         "path": "src/lib.rs"
       }
     },
-    "lava-types-0.1.2-5919002fc907fdb0c2c348be5e12ffa08e510430": {
+    "lava-types-0.1.2": {
       "edition": "2024"
     },
     "memchr-2.8.3": {
       "edition": "2021"
     },
-    "proc-macro2-1.0.106": {
+    "proc-macro2-1.0.107": {
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "quote-1.0.46": {
+    "quote-1.0.47": {
       "edition": "2021",
       "build_script": "build.rs"
     },
     "ryu-1.0.23": {
       "edition": "2021"
     },
-    "serde-1.0.228": {
+    "serde-1.0.229": {
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "serde_core-1.0.228": {
+    "serde_core-1.0.229": {
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "serde_derive-1.0.228": {
+    "serde_derive-1.0.229": {
       "edition": "2021",
       "proc_macro": true
     },
-    "serde_json-1.0.150": {
+    "serde_json-1.0.151": {
       "edition": "2021",
       "build_script": "build.rs"
     },
     "serde_yaml-0.9.34+deprecated": {
       "edition": "2021"
     },
-    "syn-2.0.119": {
+    "syn-3.0.3": {
       "edition": "2021"
     },
-    "thiserror-2.0.18": {
+    "thiserror-2.0.19": {
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "thiserror-impl-2.0.18": {
+    "thiserror-impl-2.0.19": {
       "edition": "2021",
       "proc_macro": true
     },
@@ -813,11 +816,6 @@
       "build_script": "build.rs"
     }
   },
-  "git_nar_sha256": {
-    "lava-arch-0.1.5-548d3c764a451b627bcf9cb1f4be4c4fdd0b2f2d": "sha256-ASpoPsIOBspFEyww8Ij1KoCZ3MwutMfhVSRSfuhDdEE=",
-    "lava-core-0.1.6-610f5231d47cfaddad053b4c351ce6ef663002df": "sha256-IKxgJsK/Ht+aMY4SikIkZRNi6pMKMpMKA503Z8DYObg=",
-    "lava-schema-0.1.5-780b607f643a126339c158bc2f53078383a32d38": "sha256-DqJQUr7KsPwz4ieHFwYYUEH9Bdq4La1mZPhE4MinZjw=",
-    "lava-types-0.1.2-5919002fc907fdb0c2c348be5e12ffa08e510430": "sha256-KxzpOdN3R0PokxfZlMRK0UdA5kgRHlO+NY/fucsMSFk="
-  },
+  "git_nar_sha256": {},
   "flake_metadata": {}
 }
