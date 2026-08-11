@@ -1,3 +1,4 @@
-Cargo.build-spec.json
-
 /target
+Cargo.lock.bak
+Cargo.build-spec.json
+.cargo/
