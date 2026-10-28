@@ -34,9 +34,9 @@ checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
 
 [[package]]
 name = "lava-arch"
-version = "0.2.1"
+version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "34ee7ff9b7a78766f2b598bf88c1d7ee4f4ebd709bf96e8e221054840c988094"
+checksum = "36cde49f7426edaa8734e61a41797fcb36e4349b35518536f419c425b204252a"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -47,14 +47,14 @@ dependencies = [
 
 [[package]]
 name = "lava-core"
-version = "0.2.1"
+version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a0de00c35740e1edec30f29ecfb61729f28c58ecf1bc52ede99b14139a566362"
+checksum = "9d66938094d4cb1107bacbbd554f597c7b7261a1b56049d522a421ea65426752"
 dependencies = [
  "indexmap",
  "serde",
  "serde_json",
- "serde_yaml",
+ "serde_norway",
  "thiserror",
 ]
 
@@ -169,16 +169,16 @@ dependencies = [
 ]
 
 [[package]]
-name = "serde_yaml"
-version = "0.9.34+deprecated"
+name = "serde_norway"
+version = "0.9.42"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6a8b1a1a2ebf674015cc02edccce75287f1a0130d394307b36743c2f5d504b47"
+checksum = "e408f29489b5fd500fab51ff1484fc859bb655f32c671f307dcd733b72e8168c"
 dependencies = [
  "indexmap",
  "itoa",
  "ryu",
  "serde",
- "unsafe-libyaml",
+ "unsafe-libyaml-norway",
 ]
 
 [[package]]
@@ -219,10 +219,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
 
 [[package]]
-name = "unsafe-libyaml"
-version = "0.2.11"
+name = "unsafe-libyaml-norway"
+version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "673aac59facbab8a9007c7f6108d11f63b603f7cabff99fabf650fea5c32b861"
+checksum = "b39abd59bf32521c7f2301b52d05a6a2c975b6003521cbd0c6dc1582f0a22104"
 
 [[package]]
 name = "zmij"
